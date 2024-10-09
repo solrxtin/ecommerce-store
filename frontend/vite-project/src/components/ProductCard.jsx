@@ -16,8 +16,8 @@ import {
     ModalFooter 
 } from '@chakra-ui/react'
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
-import { useProductStore } from '../store/product';
-import ImageUpload from './ImageUpload';
+import { useProductStore } from '../store/product.js';
+import ImageUpload from './ImageUpload.jsx';
 
 const ProductCard = ({product}) => {
     const [updatedProduct, setUpdatedProduct] = useState(product);
