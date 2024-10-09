@@ -5,7 +5,6 @@ import Homepage from './pages/Homepage.jsx'
 import CreatePage from './pages/CreatePage.jsx'
 import Navbar from './components/Navbar.jsx'
 
-
 function App() {
   return (
     <>
